@@ -10,6 +10,8 @@
 		8CB42563217E2633007134D5 /* MetalLearn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CB42559217E2633007134D5 /* MetalLearn.framework */; };
 		8CB42568217E2633007134D5 /* MetalLearnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB42567217E2633007134D5 /* MetalLearnTests.m */; };
 		8CB4256A217E2633007134D5 /* MetalLearn.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CB4255C217E2633007134D5 /* MetalLearn.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CB4257F217E3721007134D5 /* MLMetalManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CB4257D217E3721007134D5 /* MLMetalManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CB42580217E3721007134D5 /* MLMetalManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB4257E217E3721007134D5 /* MLMetalManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		8CB42562217E2633007134D5 /* MetalLearnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetalLearnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CB42567217E2633007134D5 /* MetalLearnTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MetalLearnTests.m; sourceTree = "<group>"; };
 		8CB42569217E2633007134D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CB4257D217E3721007134D5 /* MLMetalManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLMetalManager.h; sourceTree = "<group>"; };
+		8CB4257E217E3721007134D5 /* MLMetalManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MLMetalManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,7 @@
 		8CB4255B217E2633007134D5 /* MetalLearn */ = {
 			isa = PBXGroup;
 			children = (
+				8CB4257C217E3708007134D5 /* Source */,
 				8CB4255C217E2633007134D5 /* MetalLearn.h */,
 				8CB4255D217E2633007134D5 /* Info.plist */,
 			);
@@ -86,6 +91,15 @@
 			path = MetalLearnTests;
 			sourceTree = "<group>";
 		};
+		8CB4257C217E3708007134D5 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				8CB4257D217E3721007134D5 /* MLMetalManager.h */,
+				8CB4257E217E3721007134D5 /* MLMetalManager.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -94,6 +108,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CB4256A217E2633007134D5 /* MetalLearn.h in Headers */,
+				8CB4257F217E3721007134D5 /* MLMetalManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,6 +208,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CB42580217E3721007134D5 /* MLMetalManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
